@@ -35,7 +35,7 @@ const API_URL = 'https://striveschool-api.herokuapp.com/api/product';
  * @returns {Object} Oggetto con i metodi per interagire con l'API
  */
 const createApiService = () => {
-    const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzYxYjhlNTUzMDRhNzAwMTUxNDhiMmEiLCJpYXQiOjE3MzQ0NjQ0NzcsImV4cCI6MTczNTY3NDA3N30.0f9iHSOe-pusM6x6s9HbtFpICRF4nsGl5dzicFu_PgU';
+    const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzYxYjhlNTUzMDRhNzAwMTUxNDhiMmEiLCJpYXQiOjE3MzYxNTU3NjYsImV4cCI6MTczNzM2NTM2Nn0.unb6JUEfHy7H4x4QFV1CxFOS7jd9xC0shgsS9o6As00';
     localStorage.setItem('token', token);
 
     /**

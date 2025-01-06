@@ -20,6 +20,13 @@ body {
   backdrop-filter: blur(20px);
   
   .navbar-brand {
+    img {
+      width: 130px;
+      transition: all $transition-speed ease;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
     font-weight: 500;
     letter-spacing: -0.5px;
   }
